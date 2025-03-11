@@ -241,4 +241,8 @@ button:focus:before {
 }
 .loc {
     text-align: center;
+}.bannera iframe {
+    width: 100%; 
+    height: 450px;
+    border: 0;
 }

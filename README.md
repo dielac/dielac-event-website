@@ -1,96 +1,50 @@
-# Event Center - Ladies Night Website
+# Event Center Website
 
-## Hi everyone!!!
-
-Welcome to the **Event Center** website! This is the place for all things related to our fabulous "Ladies Night" event. We've put together a fun, interactive site to give you all the details about the event, from the schedule to how to sign up. The website is designed with a cute, pink aesthetic (because why not? ... and because pink is my favorite color), and it's built using **Bootstrap**, **JavaScript**, and some **CSS** to give it that stylish, modern touch.
-
-
-
-
-## What’s Inside The Website?
-
-
-Here’s what this website is all about:
-
-1. **Technologies Used**: All the tools that make this website work and be all put together.
-2. **Features**: The cool things you’ll see and interact with.
-3. **File Structure**: How everything is set up behind the scenes.
-4. **Setup and Installation**: How to get this site running on your own machine (you don't have to).
-5. **Usage**: What you can do on the site.
-
-
-
-## What We Used to Build This
-
-
-- **HTML**: The foundation of the site. We use HTML to structure the content, like the navigation bar, the footer, and the event cards. *(I'm trying to also include a slideshow of images if I get it to work.)*
-- **CSS**: This is where we made things pretty. Our custom CSS gives the site that light pink background and hot pink buttons. I'm all about the pink color and vibes.
-- **JavaScript**: Handles all the cool interactive stuff like the event schedule and validating the sign-up form. It makes everything come to life!
-- **Bootstrap**: Bootstrap makes sure the site looks great on every device. It's all about the responsive design so that your experience is smooth even if you’re on a phone or desktop.
+## Overview
+Welcome to the **Event Center Website**! This is a fun site for an event center where we host all kinds of awesome events like fairs, concerts, and much more! The design is super clean and easy to navigate so you can easily see what's coming up, check out my menu, get my address, and learn more about my awesome team! Thank you for viewing!
 
 
 
 ## Features
-
-### 1. Responsive Layout
-This site is mobile-friendly! Because of **Bootstrap**, it automatically adjusts to different screen sizes, so you can check out the event details anywhere on your phone, tablet, or desktop.
-
-### 2. Event Cards
-We’ve got interactive event cards! They show you all the exciting things going on, like **Live Music**, **Food**, **Art**, and **Dancing**. Each card has a "Learn More" link that’ll give you more details about the event.
-
-### 3. Event Schedule
-A table dynamically shows the schedule for the **Ladies Night** event. We’ve got everything from the event time to the location, all pulled from JavaScript.
-
-### 4. Sign-Up Form
-Ready to join the fun? You can sign up for the event through a simple form. Just pop in your **Name**, **Email**, and **Username**, and you’re good to go! I also used JavaScript to make sure your email is valid before you submit.
-
-### 5. Interactive Buttons
-The buttons are cute and hot pink (again, the pink theme!). When you hover over them, they change to an even darker pink, giving you some fun interactivity & adding the hovering effect like we did in the last event website project.
-
-### 6. Fixed Footer
-At the bottom of every page, you'll see a fixed footer with a cute pink background. It holds the copyright message, so you know who’s behind this fun website.
+- **Home Page**: The homepage greets you with a cool banner and shows off some exciting events we have lined up.
+- **Upcoming Events**: A page where you can see what's coming soon – from music festivals to food fairs and everything in between!
+- **Menu**: Our menu is loaded with mouth-watering options that you can check out before your visit.
+- **Location**: Find us easily with a map, and get all the address details!
+- **About Us**: Meet the team that makes everything happen. We're fun, friendly, and passionate about bringing great events to life!
+- **Contact Us**: Any questions? Use our form to send us a message, and we’ll get back to you as soon as possible.
 
 
 
-## File Structure (pretty simple)
+## Technologies Used
+- **HTML**: The structure is built using modern HTML tags.
+- **CSS**: We’ve styled it up with CSS for a modern, fun, and responsive look.
+- **Google Maps**: We’ve embedded a Google Map on the Location page so you can easily find us!
 
+
+
+## File Structure
 ```
-Event-Center/
-├── index.html - Home page with a general overview and event cards (attempting to make a slideshow, we will see).
-├── events.html - Where you can find the event schedule in table format.
-├── about.html - Learn more about the event center and Ladies' Night (times, location, dates, etc).
-├── contact.html - Sign-up form / contact info.
+event-center-website/
+├── index.html          # Homepage (where all the action begins!)
+├── events.html         # Upcoming events page (don’t miss out!)
+├── menu.html           # Menu page (yum! take a look at what we offer, my favorites lol)
+├── location.html       # Location and map page (find us!)
+├── about.html          # About Us page (get to know the team!)
+├── contact.html        # Contact form page
 ├── css/
-│   └── styles.css - Custom styles – making everything pretty and pink!
-├── scripts/
-│   └── scripts.js - JavaScript to handle content and form validation.
-├── public/
-│   ├── music.jpeg - Image for the Live Music.
-│   ├── food.jpeg - Image for the Food.  
-│   ├── paintt.webp - Image for the Art.
-│   ├── dancing.jpeg - Image for the Dancing.
-└── README.md - This file you’re reading now.
+│   └── styles.css      # Main stylesheet (keeps the site looking fab)
+└── images/
+    └── [image files]   # Event and logo images (makes it pop)
 ```
 
----
 
-## How to Use the Website
+## Installation
+You can visit my GitHub for more details on the website! Thank you.
 
-1. **Browse Events**:
-   - On the homepage, you’ll see event cards. Click on any of them to learn more about each event happening during **Ladies' Night**.
+**GitHub Link:** [dielac-event-website](https://github.com/dielac/dielac-event-website)
 
-2. **Check the Schedule**:
-   - Head to the **Event Schedule** page to view all the event timings and locations on a table.
 
-3. **Sign Up**:
-   - Want to attend? Fill out the **sign-up form** on the **Contact Page** and create an account. All we need is your **Name**, **Email**, **Password**, and **Username**. Super simple!
+## Contact
+If you have any questions or suggestions, feel free to reach out. Thanks!
 
----
-
-## Questions or Concerns
-
-If you want to reach out with any questions or concerns, please email me at:
-
-**Email:** suziecamaj@yahoo.com
-
-That’s it! We hope you enjoy the website and can’t wait to see you at the next **Ladies' Night**!
+- **Email:** suziecamaj@yahoo.com
